@@ -1,5 +1,5 @@
 DB_CONFIG = {
-    "host": "127.0.0.1",
+    "host": "host.docker.internal",
     "port": 3306,
     "user": "root",
     "password": "Mysql20040101,",
@@ -7,4 +7,4 @@ DB_CONFIG = {
     "charset": "utf8mb4"
 }
 
-WS_URL = "ws://localhost:8765"
+WS_URL = "ws://host.docker.internal:8765"

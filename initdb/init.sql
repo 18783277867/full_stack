@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS account_db
+DEFAULT CHARACTER SET utf8mb4;
+
+USE account_db;
+
+CREATE TABLE IF NOT EXISTS account_snapshot (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    account_id VARCHAR(64) NOT NULL,
+    balance DECIMAL(18,2) NOT NULL,
+    equity DECIMAL(18,2) NOT NULL,
+    unrealized_pnl DECIMAL(18,2) NOT NULL,
+    currency VARCHAR(16) NOT NULL,
+    ts DATETIME NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

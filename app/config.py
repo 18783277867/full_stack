@@ -1,5 +1,5 @@
 DB_CONFIG = {
-    "host": "host.docker.internal",
+    "host": "mysql",
     "port": 3306,
     "user": "root",
     "password": "Mysql20040101,",

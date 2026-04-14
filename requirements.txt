@@ -1,0 +1,7 @@
+websockets
+pymysql
+# OKX_API_KEY=513178d4-1031-4947-ab51-f9897e2bdc89
+# OKX_SECRET_KEY=35B4B0430C4A2A74C2BABF6AB63B05E5
+# OKX_PASSPHRASE=Luoli123456,
+# OKX_WS_URL=wss://wseeapap.okx.com:8443/ws/v5/private
+
